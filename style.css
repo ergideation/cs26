@@ -5,9 +5,9 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: orange;
+    background-color: #d49cff;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     color: purple;
 }
 img {
@@ -24,10 +24,10 @@ img {
     border: none;
 }
 .yes {
-    background-color: green;
+    background-color: #15cf3d;
     color: white;
 }
 .no {
-    background-color: red;
+    background-color: #cf2555;
     color: white;
 }
