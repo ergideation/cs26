@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Building Invitation</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <img src="your-image-url.jpg" alt="Team Building Image">
+    <p id="invitation-text">Will you come to a teambuilding?</p>
+    <div class="buttons">
+        <button id="yes-btn" class="button">Yes</button>
+        <button id="no-btn" class="button">No</button>
+    </div>
+
+    <script>
+        document.getElementById('no-btn').addEventListener('click', function() {
+            document.getElementById('invitation-text').innerText = "Please think again";
+            this.style.padding = "5px 10px"; // Make "No" button smaller
+            document.getElementById('yes-btn').style.padding = "15px 30px"; // Make "Yes" button bigger
+        });
+    </script>
+</body>
+</html>
