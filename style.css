@@ -5,8 +5,9 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: white;
+    background-color: #8f74fc;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     font-size: 20px;
     color: purple;
 }
