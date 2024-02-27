@@ -19,7 +19,6 @@ document.getElementById('no-btn').addEventListener('click', function() {
 document.getElementById('yes-btn').addEventListener('click', function() {
     document.getElementById('invitation-text').innerText = "Yaaaay!";
     //document.getElementById('event-image').src = "yes.png"; // Change the image source if needed
-     document.getElementById('event-image').style.display = "none"; // Hide the static image
-    document.getElementById('gif-container').style.display = "block"; // Show the GIF embed
+    document.getElementById('event-image').src = "yes.jpg"; // Change the image source if needed
 });
 
